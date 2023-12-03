@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="jquery-3.6.0.js"></script>        
+        <link href="bootstrap-5.0.2-dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        
+        <title>NicoPizzeria</title>
+        
+    </head>
+    <body>
+        <!--task 1-->
+        <h1 class="display-1">my heading</h1>
+
+        <!--task 2-->
+
+        <div >
+            <table class="table table-hover ">
+                <tr class=" pe-auto bg-success ">
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                  </tr>
+                  <tr class="bg-danger">
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                  </tr>
+                  <tr class="bg-info">
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                  </tr>
+                </table>
+        </div>
+        <!--task 3-->
+        <div>
+            <button class="btn btn-outline-danger ">first</button>
+            <button class="btn btn-success " disabled>second</button>
+            <a href="https://google.com." class="btn btn-lg btn-warning " role="button" aria-pressed="true">third</a>
+           
+        </div>
+        <!--task 4-->
+
+        <div> 
+            <ul class="list-group">
+                <li class="list-group-item ">item 1</li>
+                <li class=" list-group-item">item 2</li>
+                <li class="list-group-item">item 3</li>
+            </ul>
+
+        </div>
+        <!--task 5-->
+
+        <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                dropdown button
+            </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://google.com">link1</a></li>
+                    <li><a class="dropdown-item" href="https://google.com">link2</a></li>
+                    <li><a class="dropdown-item" href="https://google.com">link3</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="https://google.com">link4</a></li>
+                </ul>
+
+        </div>
+        <!--task 6-->
+
+        <div>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class=" nav-link"  href="https://google.com.">item 1</a>
+                </li>
+
+                <li class="nav-item">
+                <a class=" nav-link"  href="https://google.com.">item 2</a>
+                </li>
+                
+            </ul>
+        </div>
+        <!--task 7-->
+        <div id="carouselExampleControls" class="container p-5 carousel slide"data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://cdn.pixabay.com/photo/2022/07/07/11/15/rainbow-7307023__340.png" class="d-block w-50" alt="rainbow">
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <img src="https://cdn.pixabay.com/photo/2022/03/30/13/16/betta-7101167__340.jpg" class="d-block w-50" alt="betta">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <!--task 8-->
+
+        <div>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                  <div class="bg-warning col">Column</div>
+                  <div class="bg-primary col">Column</div>
+                  <div class="bg-danger col">Column</div>
+                  <div class="bg-success col">Column</div>
+                </div>
+              </div>
+        </div>
+
+        <!--task 9-->
+        <script>
+            $(document).ready(function(){
+                $("#liveToastBtn").click(function(){
+                    $("#liveToast").toast("show");
+                });
+            });
+    
+        </script>
+
+
+        <button type="button" class="btn btn-primary " id="liveToastButton">get toasted!!!</button>
+
+        <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11;">
+            <div id="liveToast" class="hide-bs-toast" role="alert" aria-live="assertive" aria-atomic="true"></div>
+            <div class="toast-header">
+                <strong class="me-auto"> toast notification</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="close" ></button>
+            </div>
+            <div class="toast-body text-success">
+                this is a toast notification
+            </div>
+        </div>
+    </div>
+    
+        <!--task 10-->
+
+        <div >
+            <figure class="figure">
+                <img class="figure-img img-fluid img-thumbnail" src="https://cdn.pixabay.com/photo/2022/03/30/13/16/betta-7101167__340.jpg">
+                <figcaption class="figure-caption text-end">betta image</figcaption>
+            </figure>
+
+
+
+        </div> 
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    
+</body>
+
+
+</html>
